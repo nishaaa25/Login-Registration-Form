@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Login&Signup form</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <img src="assets/img.jpg" />
+        <div class="form-text">
+          <div class="text">
+            <div class="txt">
+              <p class="register">
+                Not a member?
+                <a href="#" id="reg-form" class="switchbtn">Register now</a>
+              </p>
+              <form class="login-form">
+                <h1>Hello Again!</h1>
+                <p>Welcome back you've been missed!</p>
+                <input
+                  type="text"
+                  class="username"
+                  id="username"
+                  placeholder="Enter username"
+                  id="username" /><br />
+                <input
+                  type="password"
+                  class="password"
+                  id="login-pass"
+                  placeholder="Password" />
+                <br />
+                <span>Forgot Password?</span><br />
+                <button class="btn" id="login" type="submit">
+                  <a href="#">Sign In</a></button
+                ><br />
+                <p class="span">or continue with</p>
+                <div class="icons">
+                  <div class="icon"><i class="fab fa-facebook fb"></i></div>
+                  <div class="icon"><i class="fab fa-apple apple"></i></div>
+                  <div class="icon"><i class="fab fa-linkedin li"></i></div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="text active">
+            <div class="txt">
+              <p class="login">
+                Already a member?
+                <a href="#" class="switchbtn" id="login-form">Sign In</a>
+              </p>
+              <form class="register-form">
+                <h1>Create an account</h1>
+                <p>Sign up now and unlock exclusive access!</p>
+                <input
+                  type="text"
+                  class="username"
+                  id="name"
+                  placeholder="Enter your name" /><br />
+                <input
+                  type="text"
+                  class="email"
+                  id="email"
+                  placeholder="youremail@gmail.com" />
+                <br />
+                <input
+                  type="password"
+                  class="password"
+                  id="reg-pass"
+                  placeholder="Password" />
+                <br />
+                <button class="btn" id="register" type="submit">
+                  <a href="#">Create Account</a></button
+                ><br />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/js/index.js"></script>
+</html>
